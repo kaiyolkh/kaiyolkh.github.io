@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Comfortaa&family=JetBrains+Mono&display=swap');
+
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh;
+    background: url("media/hk.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 25px;
+}
+
+p {
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#icon {
+    font-size: 27.5px;
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: all 0.15s ease 0s;
+}
+
+#icon:hover {
+    opacity: 0.5;
+}
+
+.main_box {
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    height: 88vh;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.2));
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    /*border: 1px solid rgba(255, 255, 255, 0.18);*/
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.left_box, .right_box{
+    display: inline-block;
+    height: 100%;
+}
+
+.left_box {
+    width: 40%;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.right_box {
+    width: 60%;
+    overflow-y: auto;
+}
+
+.name {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 800; 
+}
+
+.pic {
+    height: 200px;
+    border-radius: 15px;
+}
+
+.subbox {
+    padding-right: 10px;
+}
+
+.proj, .btn {
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    border-radius: 15px;
+    padding: 10px;
+    transition: all 0.15s ease 0s;
+}
+
+.proj:hover, .btn:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.projpadding, .btnpadding {
+    padding: 5px;
+}
+
+.projpic {
+    height: 125px;
+    text-align: center;
+}
+
+.projname, .projdesc, .btntxt {
+    color: white;
+}
+
+.projname {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.projdesc, .btntxt {
+    font-family: "Abel", sans-serif;
+    font-size: 17px;
+}
+
+.btn {
+    margin: 0 auto;
+    width: auto;
+    max-width: 300px;
+}
