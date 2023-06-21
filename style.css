@@ -112,6 +112,11 @@ a {
     object-fit: cover;
     text-align: center;
     border-radius: 10px;
+    transition: all 0.15s ease 0s;
+}
+
+.projpic:hover {
+    opacity: 0.5;
 }
 
 .projname, .projdesc, .btntxt {
