@@ -108,6 +108,9 @@ a {
 .projpic {
     height: 125px;
     text-align: center;
+    margin: 0 auto;
+    width: auto;
+    border-radius: 15px;
 }
 
 .projname, .projdesc, .btntxt {
