@@ -110,7 +110,7 @@ a {
     height: 175px;
     width: 100%;
     object-fit: cover;
-    text-align: center;
+    object-position: top;
     border-radius: 10px;
     transition: all 0.15s ease 0s;
 }
