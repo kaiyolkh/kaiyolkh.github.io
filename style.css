@@ -14,17 +14,23 @@ html {
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 65px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-family: "JetBrains Mono", monospace;
     font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 p {
     font-family: "Abel", sans-serif;
     font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 a {
@@ -65,14 +71,19 @@ a {
 }
 
 .left_box {
-    width: 40%;
+    width: 35%;
     text-align: center;
     overflow-y: auto;
 }
 
 .right_box {
-    width: 60%;
+    width: 65%;
     overflow-y: auto;
+}
+
+.top_name {
+    margin-top: 20px;
+    font-size: 25px;
 }
 
 .name {
@@ -81,8 +92,9 @@ a {
 }
 
 .pic {
-    height: 200px;
-    border-radius: 15px;
+    height: 250px;
+    border-radius: 25px;
+    margin-bottom: 20px;
 }
 
 .subbox {
@@ -107,7 +119,7 @@ a {
 }
 
 .projpic {
-    height: 200px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
     object-position: top;
