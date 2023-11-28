@@ -19,10 +19,18 @@ h1 {
     margin-bottom: 20px;
 }
 
-h2 {
+h2, .intro {
     font-family: "JetBrains Mono", monospace;
     font-size: 25px;
+    font-weight: 600;
+}
+
+h2 {
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro {
     margin-bottom: 20px;
 }
 
@@ -54,6 +62,7 @@ a {
     color: white;
     padding: 10px;
     border-radius: 15px;
+    min-width: 93.5vw;
     height: 88vh;
     display: flex;
     flex-direction: row;
@@ -76,9 +85,23 @@ a {
     overflow-y: auto;
 }
 
-.right_box {
+.right_box{
     width: 65%;
+    flex-direction: column;
+}
+
+.content_box{
+    display: inline-block;
+    height: 91%;
     overflow-y: auto;
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-bottom: 10px;
+    /*height: 70px;*/
 }
 
 .top_name {
@@ -86,7 +109,7 @@ a {
     font-size: 25px;
 }
 
-.name {
+.name, .btntxt{
     font-family: "Comfortaa", sans-serif;
     font-weight: 800; 
 }
@@ -97,59 +120,7 @@ a {
     margin-bottom: 20px;
 }
 
-.subbox {
+.subbox, .nav_bar{
     padding-left: 10px;
     padding-right: 10px;
-}
-
-.proj, .btn {
-    border: 2px solid rgba(255, 255, 255, 0.18);
-    border-radius: 15px;
-    padding: 10px;
-    transition: all 0.15s ease 0s;
-}
-
-.proj:hover, .btn:hover {
-    cursor: pointer;
-    background: rgba(0, 0, 0, 0.25);
-}
-
-.projpadding, .btnpadding {
-    padding: 5px;
-}
-
-.projpic {
-    height: 250px;
-    width: 100%;
-    object-fit: cover;
-    object-position: top;
-    border-radius: 10px;
-    transition: all 0.15s ease 0s;
-}
-
-.projpic:hover {
-    opacity: 0.5;
-}
-
-.projname, .projdesc, .btntxt {
-    color: white;
-}
-
-.projname {
-    font-family: "JetBrains Mono", monospace;
-    font-weight: 600;
-    font-size: 22px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.projdesc, .btntxt {
-    font-family: "Abel", sans-serif;
-    font-size: 17px;
-}
-
-.btn {
-    margin: 0 auto;
-    width: auto;
-    max-width: 300px;
 }
