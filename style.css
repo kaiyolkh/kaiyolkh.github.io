@@ -6,8 +6,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4vh;
-    background: url("media/startrail.jpg");
+    padding: 3vh;
+    background: url("media/toronto.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
@@ -63,12 +63,12 @@ a {
     padding: 10px;
     border-radius: 15px;
     min-width: 93.5vw;
-    height: 88vh;
+    height: 89.5vh;
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.2));
-    backdrop-filter: blur(15px);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
