@@ -9,7 +9,7 @@ html {
     padding: 3vh;
     background: url("media/toronto.JPG");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-position: center;
 }
 
