@@ -11,7 +11,7 @@
     }
 
     h1 {
-        font-size: 65px;
+        font-size: 45px;
         margin-top: 10px;
         margin-bottom: 20px;
     }
@@ -103,7 +103,7 @@
 
     .top_name {
         margin-top: 20px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .name, .btntxt{
@@ -112,7 +112,7 @@
     }
 
     .pic {
-        height: 250px;
+        height: 150px;
         border-radius: 25px;
         margin-bottom: 20px;
         border: 1px solid rgba(255, 255, 255, 0.18);
