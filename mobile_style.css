@@ -18,7 +18,7 @@
 
     h2, .intro {
         font-family: "JetBrains Mono", monospace;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 600;
     }
 
@@ -33,7 +33,7 @@
 
     p {
         font-family: "Abel", sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
