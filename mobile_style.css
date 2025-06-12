@@ -96,7 +96,7 @@
     .nav_bar{
         display: flex;
         flex-direction: row;
-        justify-content: right;
+        justify-content: center;
         padding-bottom: 10px;
         /*height: 70px;*/
     }
