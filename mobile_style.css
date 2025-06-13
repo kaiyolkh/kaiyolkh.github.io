@@ -80,13 +80,13 @@
     }
 
     .left_box {
-        height: 52%;
+        height: 30%;
         text-align: center;
         overflow-y: auto;
     }
 
     .right_box{
-        height: 48%;
+        height: 70%;
         flex-direction: column;
     }
 
