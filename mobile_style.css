@@ -3,7 +3,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 3vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left: 15vw;
+        padding-right: 15vw;
         background: url("media/toronto.JPG");
         background-repeat: no-repeat;
         background-size: cover;
@@ -12,8 +15,8 @@
 
     h1 {
         font-size: 45px;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     h2, .intro {
@@ -23,12 +26,12 @@
     }
 
     h2 {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .intro {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     p {
@@ -57,7 +60,7 @@
 
     .main_box {
         color: white;
-        padding: 10px;
+        padding: 5px;
         border-radius: 15px;
         min-width: 93.5vw;
         height: 89.5vh;
@@ -102,7 +105,7 @@
     }
 
     .top_name {
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 20px;
     }
 
@@ -114,13 +117,22 @@
     .pic {
         height: 150px;
         border-radius: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         border: 1px solid rgba(255, 255, 255, 0.18);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35);
     }
 
     .subbox, .nav_bar{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
+
+
+    .proj, .btn {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35);
+    border-radius: 15px;
+    padding: 6px;
+    transition: all 0.15s ease 0s;
+}
 }
