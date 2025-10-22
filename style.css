@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=JetBrains+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Comfortaa&family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 html {
     display: flex;
@@ -14,31 +13,32 @@ html {
 }
 
 h1 {
-    font-size: 65px;
-    margin-top: 10px;
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 5px;
     margin-bottom: 20px;
 }
 
 h2, .intro {
-    font-family: "JetBrains Mono", monospace;
-    font-size: 25px;
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+    font-size: 28px;
     font-weight: 600;
 }
 
 h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .intro {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 p {
-    font-family: "Abel", sans-serif;
+    font-family: "Geist", sans-serif;
     font-size: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 a {
@@ -49,6 +49,7 @@ a {
     font-size: 27.5px;
     text-decoration: none;
     color: white;
+    margin-top: 5px;
     padding-right: 10px;
     padding-left: 10px;
     transition: all 0.15s ease 0s;
@@ -110,8 +111,11 @@ a {
 }
 
 .name, .btntxt{
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 800; 
+    font-family: "Zalando Sans SemiExpanded", sans-serif; 
+}
+
+.btntxt{
+    font-weight: 500; 
 }
 
 .pic {

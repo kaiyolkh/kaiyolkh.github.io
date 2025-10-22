@@ -43,7 +43,7 @@
 }
 
 .projname {
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
     font-weight: 600;
     font-size: 22px;
     padding-top: 5px;
@@ -51,7 +51,7 @@
 }
 
 .projdesc{
-    font-family: "Abel", sans-serif;
+    font-family: "Geist", sans-serif;
     font-size: 17px;
 }
 

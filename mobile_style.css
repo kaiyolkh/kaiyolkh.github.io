@@ -20,7 +20,7 @@
     }
 
     h2, .intro {
-        font-family: "JetBrains Mono", monospace;
+        font-family: "Zalando Sans SemiExpanded", sans-serif;
         font-size: 20px;
         font-weight: 600;
     }
@@ -35,7 +35,7 @@
     }
 
     p {
-        font-family: "Abel", sans-serif;
+        font-family: "Geist", sans-serif;
         font-size: 18px;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -110,7 +110,7 @@
     }
 
     .name, .btntxt{
-        font-family: "Comfortaa", sans-serif;
+        font-family: "Zalando Sans SemiExpanded", sans-serif;
         font-weight: 800; 
     }
 
