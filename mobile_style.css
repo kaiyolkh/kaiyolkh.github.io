@@ -3,8 +3,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
         padding-left: 15vw;
         padding-right: 15vw;
         background: url("media/toronto.JPG");
@@ -69,38 +69,54 @@
         align-items: stretch;
         background: linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
         backdrop-filter: blur(6px);
-        -webkit-backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(6px);
         border: 1px solid rgba(255, 255, 255, 0.18);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
-    .left_box, .right_box{
-        display: inline-block;
+    .left_box, .content_box {
         width: 100%;
     }
 
     .left_box {
-        height: 30%;
+        order: 2;
+        height: auto;
         text-align: center;
-        overflow-y: auto;
+        overflow: visible;
+        margin-bottom: 16px;
+        /*overflow-y: auto;*/
     }
 
-    .right_box{
-        height: 70%;
+    .content_box {
+        order: 3;
+        height: auto;
         flex-direction: column;
+        overflow: visible;
+        /*overflow-y: auto;*/
     }
 
-    .content_box{
-        display: inline-block;
-        height: 91%;
-        overflow-y: auto;
+    .right_box {
+        display: contents;
     }
 
     .nav_bar{
+        order: 1;
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
+        padding-top: 5px;
         padding-bottom: 5px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        border-radius: 15px;
+        /*background: linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));*/
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35);
         /*height: 70px;*/
     }
 

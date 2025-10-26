@@ -70,13 +70,12 @@ a {
     align-items: stretch;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(6px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
 }
 
-.left_box, .right_box{
-    display: inline-block;
+.left_box, .right_box {
     height: 100%;
 }
 
@@ -88,17 +87,19 @@ a {
 
 .right_box{
     width: 65%;
+    display: flex;
     flex-direction: column;
 }
 
 .content_box{
-    display: inline-block;
-    height: 91%;
+    flex: 1;
+    order: 2;
     overflow-y: auto;
 }
 
 .nav_bar{
     display: flex;
+    order: 1;
     flex-direction: row;
     justify-content: right;
     padding-bottom: 10px;
