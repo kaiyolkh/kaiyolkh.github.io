@@ -3,13 +3,15 @@
 
 html {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding: 3vh;
     background: url("media/toronto.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    overscroll-behavior: none;
 }
 
 h1 {
