@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 html {
-    display: flex;
     align-items: center;
     justify-content: center;
     padding: 3vh;
@@ -63,7 +62,6 @@ a {
     color: white;
     padding: 10px;
     border-radius: 15px;
-    min-width: 93.5vw;
     height: 89.5vh;
     display: flex;
     flex-direction: row;
